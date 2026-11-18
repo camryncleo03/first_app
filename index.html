@@ -174,6 +174,12 @@
       font-weight: 800;
       color: #596579;
     }
+    #shearMaxLabel,
+    #momentMaxLabel,
+    #deflectionMaxLabel {
+      text-anchor: middle;
+      letter-spacing: 2px;
+    }
     .crosshair { opacity: 0; stroke: #98a2b3; stroke-width: 1; stroke-dasharray: 4 3; }
     .plots-card.hovering .crosshair { opacity: 1; }
     .hover-value {
@@ -376,7 +382,7 @@
                 <line x1="0" y1="69" x2="900" y2="69" class="axis"/>
                 <line x1="0" y1="104" x2="900" y2="104" class="plot-grid"/>
                 <path id="shearPath" d="M50,69 L50,34 L450,34 L450,104 L850,104 L850,69 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-                <text id="shearMaxLabel" x="58" y="27" font-size="12" fill="#2563eb">+10.0 k</text>
+                <text id="shearMaxLabel" x="450" y="27" text-anchor="middle" font-size="12" fill="#2563eb">+10.0 k at 0.00 ft</text>
               </g>
               <line x1="450" y1="20" x2="450" y2="118" class="crosshair"/>
             </svg>

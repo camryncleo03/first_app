@@ -11,3 +11,5 @@
 - 2026-11-18: Added the waste factor to `spec.md` and changed `index.html` to provide a synchronized 0–15% slider with a 5% default and 1% step. Added an adjusted-weight display for the section recommendation.
 - 2026-11-18: Implemented the calculation functions and ran hand checks for all four spec validation cases. All reactions, moments, stresses, deflections, and deflection locations matched the spec to the stated precision; project files are ready for commit.
 - 2026-11-18: Changed the app background to light blue, switched the font to Arial, and added an inline SVG dog mascot beside the app title.
+- 2026-11-18: Increased the letter spacing for the blue maximum-value labels in the moment and deflection diagrams.
+- 2026-11-18: Centered and widened the letter spacing for maximum-value labels in the shear, moment, and deflection diagrams.
