@@ -10,3 +10,4 @@
 - 2026-11-18: Built Stage 2 interactive controls in `index.html`: support, span, load editing and removal, add controls, material/section dropdowns, and deflection limit. Added clearly separated placeholder calculation functions and did not implement structural calculations.
 - 2026-11-18: Added the waste factor to `spec.md` and changed `index.html` to provide a synchronized 0–15% slider with a 5% default and 1% step. Added an adjusted-weight display for the section recommendation.
 - 2026-11-18: Implemented the calculation functions and ran hand checks for all four spec validation cases. All reactions, moments, stresses, deflections, and deflection locations matched the spec to the stated precision; project files are ready for commit.
+- 2026-11-18: Changed the app background to light blue, switched the font to Arial, and added an inline SVG dog mascot beside the app title.
